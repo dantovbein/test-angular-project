@@ -1,0 +1,17 @@
+<div class="nav-sections">
+	<nav>
+		<ul>
+			<li ng-repeat="section in sections">
+				<!--<a ui-sref="{{ section.state }}" ui-sref-opts="{ title:'true' }" >{{ section.name }}</a>-->
+				<a ui-sref="{{ section.state }}({ title:'titulo 34'})">{{ section.name }}</a>
+				<!--<a ui-sref-if="{ section.state != '' }" ui-sref-val="{{ section.state }}">{{ section.name }}</a>-->
+				<!--<a ng-attr-ui-sref="{{ section.state || undefined }}">{{ section.name }}</a>-->
+				<!--<ul ng-if="section.sub.length > 0">
+					<li ng-repeat="subsection in section.sub">
+						<a ui-sref="{{ section.state }}" ng-href="#">{{ subsection.name }}</a>
+					</li>
+				</ul>-->
+			</li>
+		</ul>
+	</nav>
+</div>

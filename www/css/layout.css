@@ -1,0 +1,14 @@
+/* LoginView */
+.error-message {
+	color:red;
+}
+
+.no-selected {
+	background-color:red;
+	color:white;
+}
+
+.selected {
+	background-color:green;
+	color:white;
+}
